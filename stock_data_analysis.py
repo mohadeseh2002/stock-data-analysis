@@ -209,6 +209,3 @@ plt.xlabel("R² Score")
 plt.ylabel("model")
 plt.grid(True)
 plt.show()
-
-import seaborn as sns
-sns.pairplot(df[['Open', 'High', 'Low', 'Close', 'Volume']])
